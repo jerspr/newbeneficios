@@ -349,5 +349,11 @@ var obj = {
         $("#flyout span").click(function(){
             $("#flyout").remove();
         });
+    },
+    enviarPuntos: function(){
+        $(".enviarPuntos").click(function(){
+            $('#elegirOpcion').modal('toggle');
+            $('#enviarPuntos').modal('show');
+        });
     }
 };

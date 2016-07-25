@@ -9,5 +9,7 @@ $(document).ready(function () {
     //obj.map(-12.063643,-77.0373082);
     obj.modalCenter();
     obj.checkActive();
+    /*Puntos*/
     obj.closeFlyout();
+    obj.enviarPuntos();
 });
