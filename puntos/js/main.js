@@ -353,6 +353,9 @@ var obj = {
     enviarPuntos: function(){
         $(".enviarPuntos").click(function(){
             $('#elegirOpcion').modal('toggle');
+            setTimeout(function () {
+                $("body").addClass("modal-open");
+            }, 1000);
             $('#enviarPuntos').modal('show');
         });
     }
