@@ -458,7 +458,7 @@ span.premios{background: url(../img/premios.png) no-repeat;}
 #modalBienvenida .modal-header{background: #636264;}
 #modalBienvenida .header-modal-c{border-bottom: 0;}
 a.btn-premios-b{background: #f2cc3d!important;background: -moz-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: -webkit-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: linear-gradient(to bottom,#f2cc3d 0,#a98310 100%)!important;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2cc3d', endColorstr='#a98310', GradientType=0 )!important;border-radius: 5px;font-size: 26px;color: #fff;font-family: "centurygothicbold",arial;height: 60px;display: inline-block;line-height: 60px;padding: 0 80px;}
-.main-premios .menu-user-d.menu-city .dropdown-menu li{color: #f2cc3d;list-style-type:none;font-size: 10px;}
+.main-premios .menu-user-d.menu-city .dropdown-menu li{color: #59595b;list-style-type:none;font-size: 10px;}
 .main-premios .menu-user-d.menu-city .dropdown-menu li:before{content: "★";padding-right: 8px;}
 .main-premios .menu-user-d .dropdown-menu li a{padding-right: 0;}
 .main-premios .menu-user-d .dropdown-menu{padding-left: 15px;}
