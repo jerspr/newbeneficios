@@ -249,7 +249,7 @@ a.ver-c{font-size: 24px;}
 /*Bread*/
 .bread{margin-top: 20px;margin-bottom: 30px;}
 .bread ul{list-style: none;padding-left: 0;margin-bottom: 0;}
-.bread ul li{float: left;font-size: 13px;color: 666666;}
+.bread ul li{float: left;font-size: 13px;color: #666666;}
 .bread ul li span{color: #626262;font-size: 18px;margin-left: 8px;margin-right: 8px;}
 .bread ul li a{font-weight: bold;font-size: 13px;color: #400090;}
 /*Search info*/
@@ -354,6 +354,17 @@ a.btn-full{width: 100%;}
 .modal-felicitaciones .btn-block.text-center.btn-no{background: #2b3036;border-bottom: 3px solid #0a0d12;}
 /*Modal Gracias*/
 .modal-gracias .header-modal-c{margin-bottom: 0;border-bottom: 0;}
+/*404*/
+.cnt-404{margin-top: 100px;position: relative;}
+.cnt-404 img{width: 100%;}
+.info-404{position: absolute;top: 60px;right: 0;width: 400px;text-align: center;}
+.info-404 p{margin-bottom: 0;font-size: 22px;color: #000;line-height: 120%;}
+.info-404 p a{color: #400090;font-family: "centurygothicbold",arial;}
+/*Tiendas*/
+.cnt-tienda-h{margin-bottom: 70px;}
+.cnt-tienda-h h2{font-size: 28px;color: #0a0d12;padding-bottom: 8px;margin-bottom: 40px;margin-top: 0;text-align: center;border-bottom: 2px solid #2b3036;}
+.center-img-h{text-align: center;}
+.m-40{margin-bottom: 40px;}
 /*Footer*/
 footer{background: #0a0d12;}
 .sub-footer{border-bottom: 1px solid #2b3036;}
@@ -379,6 +390,8 @@ ul.list-info-footer li em{font-style: normal;font-size: 13px;color: #fff;display
 .invisible{visibility: hidden;}
 .clearfix:before,.clearfix:after{content: " "; /* 1 */display: table; /* 2 */}
 .clearfix:after{clear: both;}
+/*Puntos*/
+span.puntos{background: url(../img/puntos.png) no-repeat;}
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
