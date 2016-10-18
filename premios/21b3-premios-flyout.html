@@ -672,51 +672,16 @@
                                 <img src="http://admin.beneficios.pe/elements/empresa/20549659315-fixed.png" style="max-width: 150px; max-height: 90px">
                             </a>
                             <a href="/" class="left beneficios_fixed"><img src="http://beneficios.pe/img/beneficios_fixed.png"></a>
-                            <ul class="list-reset left menu-city">
+                            <ul class="list-reset right menu-city">
                                 <li>
-                                    <span>LIMA<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></span>
+                                    <span>
+                                LIMA                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></span>
                                     <div class="dropdown">
                                         <button id="ubic" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Cambiar Ubicación
                                         </button>
-                                        <!--Se cambi oel id de la lista a modo de demo-->
-                                        <ul id="listubic-f" class="dropdown-menu" aria-labelledby="dLabel">
-                                            <span></span>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(4);">AREQUIPA</a></li>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(7);">CUSCO</a></li>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(12);">LA LIBERTAD</a></li>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(13);">LAMBAYEQUE</a></li>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(14);">LIMA</a></li>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(19);">PIURA</a></li>
-                                            <li><a class="ubic" href="#" onclick="enviarIdUbigeo(22);">TACNA</a></li>
-                                        </ul>
+                                        <ul id="listubic" class="dropdown-menu" aria-labelledby="dLabel"></ul>
                                     </div>
-                                </li>
-                            </ul>
-                            <ul class="list-reset right menu-city menu-user-d">
-                                <li>
-                                    <span>Bienvenido</span>
-                                    <div class="dropdown">
-                                        <button id="listU" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Juan Pérez
-                                        </button>
-                                        <ul id="list-option" class="dropdown-menu" aria-labelledby="dLabel">
-                                            <span></span>
-                                            <li><a class="listU" href="#">Mis Datoss</a></li>
-                                            <li><a class="listU" href="#" "="">Mis Puntos</a></li>
-                                            <li><a class="listU" href="#" "="">Mis Cupones Descargados</a></li>
-                                            <li><a class="listU" href="#" "="">Mis Cupones Vigentes</a></li>
-                                            <li><a class="listU" href="#" "="">Mis Cupones Utilizados</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span>Puntos acumulados: </span>
-                                    <span class="num-p">1500 puntos</span>
-                                </li>
-                                <li>
-                                    <span>Premios Disponibles: </span>
-                                    <span class="num-p">15 premios</span>
                                 </li>
                                 <li>
                                     <a href="/logout">Cerrar Sesión</a>
@@ -2082,6 +2047,13 @@
                 </div>
             </div>
         </footer>
+        <!--Flyout-->
+        <div id="flyout">
+            <span>x</span>
+            <h4>¡Felicitaciones!</h4>
+            <p>Tienes <strong>15 Premios</strong><br> esperando por tí</p>
+            <a href="#">¡Descúbrelos aquí!</a>
+        </div>
     </div>
     <script type="text/javascript">
     window.NREUM || (NREUM = {});

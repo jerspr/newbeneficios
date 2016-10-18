@@ -588,6 +588,7 @@ a.btn-premios-b{background: #f2cc3d!important;background: -moz-linear-gradient(t
 .main-premios .btn-block:active, .main-premios .btn-block:focus, .main-premios .btn-block:hover{background: #f2cc3d!important;background: -moz-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: -webkit-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: linear-gradient(to bottom,#f2cc3d 0,#a98310 100%)!important;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2cc3d', endColorstr='#a98310', GradientType=0 )!important;border-bottom: 0!important;}
 .main-premios #enviarPuntos .body-cnt-c h4 {margin-bottom: 20px;font-size: 22px;}
 .main-premios #enviarPuntos .body-cnt-c h5{margin-top: 0;margin-bottom: 15px;font-size: 18px;color: #333;}
+.main-premios #flyout a{background: #f2cc3d!important;background: -moz-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: -webkit-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: linear-gradient(to bottom,#f2cc3d 0,#a98310 100%)!important;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2cc3d', endColorstr='#a98310', GradientType=0 )!important;}
 /*Admin user*/
 .cnt-content-user{margin: 20px 0 50px;}
 .cnt-content-user h3{font-size: 24px;color: #0a0d12;margin-top: 0;margin-bottom: 30px;}

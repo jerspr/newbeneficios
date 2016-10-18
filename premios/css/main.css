@@ -457,6 +457,7 @@ span.premios{background: url(../img/premios.png) no-repeat;}
 .col-md-4>.cupon-two .premios-ico{width: 119px;height: 133px;position: absolute;top: -4px;left: -4px;}
 #modalBienvenida .modal-header{background: #636264;}
 #modalBienvenida .header-modal-c{border-bottom: 0;}
+#modalBienvenida .modal-header .close{width: 40px;height: 40px;right: -12px;top: -12px;border: 3px solid #636264;}
 a.btn-premios-b{background: #f2cc3d!important;background: -moz-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: -webkit-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: linear-gradient(to bottom,#f2cc3d 0,#a98310 100%)!important;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2cc3d', endColorstr='#a98310', GradientType=0 )!important;border-radius: 5px;font-size: 26px;color: #fff;font-family: "centurygothicbold",arial;height: 60px;display: inline-block;line-height: 60px;padding: 0 80px;}
 .main-premios .menu-user-d.menu-city .dropdown-menu li{color: #59595b;list-style-type:none;font-size: 10px;}
 .main-premios .menu-user-d.menu-city .dropdown-menu li:before{content: "★";padding-right: 8px;}
@@ -481,6 +482,9 @@ a.btn-premios-b{background: #f2cc3d!important;background: -moz-linear-gradient(t
 .main-premios #enviarPuntos .header-modal-c{border-bottom: 2px solid #666;}
 .main-premios #enviarPuntos .body-cnt-c h4{margin-bottom: 20px;font-size: 22px;}
 .main-premios #enviarPuntos .body-cnt-c h5{margin-top: 0;margin-bottom: 15px;font-size: 18px;color: #333333;}
+.main-premios .primary-info h1 strong{font-size: 28px;color: #0a0d12;}
+.main-premios #flyout a{background: #f2cc3d!important;background: -moz-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: -webkit-linear-gradient(top,#f2cc3d 0,#a98310 100%)!important;background: linear-gradient(to bottom,#f2cc3d 0,#a98310 100%)!important;}
+.main-premios #flyout p strong{color: #000;font-size: 18px;}
 /*Admin de usuario*/
 .cnt-content-user{margin: 20px 0 50px 0;}
 .cnt-content-user h3{font-size: 24px;color: #0a0d12;margin-top: 0;margin-bottom: 30px;}
